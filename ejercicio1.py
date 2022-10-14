@@ -13,8 +13,11 @@ class Punto:
             print("El punto pertenece al segundo cuadrante")
         elif self.x < 0 and self.y < 0:
             print("El punto pertenence al tercer cuadrante")
+        elif self.x > 0 and self.y < 0:
+            print("El punto pertenence al cuarto cuadrante ")
         else:
-            print("El punto pertenece al cuarto cuadrante")
+            print("El punto se encuentra en el origen ya que x=0 y=0")
+            
 
             
 
