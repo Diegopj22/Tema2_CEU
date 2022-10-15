@@ -6,6 +6,9 @@ for contador,frase in enumerate(texto2):
         texto2[contador]=texto2[contador]+"..."
     else:
         texto2[contador]="-"+texto2[contador]+"."
+for i in texto2:
+    print(i)
+
 
  
     
