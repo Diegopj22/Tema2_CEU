@@ -40,6 +40,9 @@ class Rectángulo:
     def base(self):
         self.base=self.punto_final.x-self.punto_inicial.x
     
+    def altura(self):
+        self.altura=self.punto_final.y-self.punto_inicial.y
+    
         
     
 
