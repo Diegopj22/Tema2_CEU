@@ -26,7 +26,7 @@ class Punto:
     
     def distancia(self,punto):
         dis=math.sqrt((punto.x-self.x)**2 + (punto.y-self.y)**2)
-        print("La distancia entre {} y {} es {}".format(self,punto,dis))
+        print("La distancia es ",dis)
             
 
             
