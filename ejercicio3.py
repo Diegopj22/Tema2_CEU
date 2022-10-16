@@ -9,12 +9,12 @@ def modificar(lista):
     suma=sum(resultado)
     resultado.insert(0,suma)
     
-    
-        
-
-    
     return (resultado)
 
-print(modificar([2,4,8,-4,22,3,2,5,8]))
+nueva_lista = modificar(lista)
+print( nueva_lista[0] == sum(nueva_lista[1:]) )
+True
+
+
 
             
