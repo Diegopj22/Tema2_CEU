@@ -39,9 +39,15 @@ class Rectángulo:
     
     def base(self):
         self.base=self.punto_final.x-self.punto_inicial.x
+        print("la base del rectángulo es",self.base)
     
     def altura(self):
         self.altura=self.punto_final.y-self.punto_inicial.y
+        print("la altura del rectángulo es",self.altura)
+    
+    def area(self):
+        self.area=self.base*self.altura
+        print("El área del rectángulo es",self.area)
     
         
     
