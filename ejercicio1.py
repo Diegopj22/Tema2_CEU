@@ -30,6 +30,14 @@ class Punto:
             
 
 class Rectángulo:
+    def __init__(self,punto_inicial,punto_final):
+        self.punto_inicial=punto_inicial
+        self.punto_final=punto_final
+        if punto_final or punto_inicial ==None:
+            punto_inicial=0
+            punto_final=0
+            
+        
     
 
         
