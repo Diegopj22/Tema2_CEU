@@ -1,3 +1,4 @@
+from calendar import c
 import math
 
 
@@ -49,8 +50,15 @@ class Rectángulo:
         self.area=abs(self.base*self.altura)
         print("El área del rectángulo es",self.area)
     
-        
-    
+A=(2,3)
+B= (5,5) 
+C=(-3,-1) 
+D=(0,0)    
+
+A.cuadrante()
+C.cuadrante()
+D.cuadrante()
+
 
         
 
