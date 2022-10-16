@@ -29,7 +29,12 @@ class Punto:
         print("La distancia es ",dis)
             
 
-            
+class Rectángulo:
+    
+
+        
+
+
 
 
         
