@@ -49,19 +49,35 @@ class Rectángulo:
     def area(self):
         self.area=abs(self.base*self.altura)
         print("El área del rectángulo es",self.area)
-    
+
+#Crea los puntos A(2, 3), B(5,5), C(-3, -1) y D(0,0) e imprimelos por pantalla.   
 A=Punto(2,3)
 B= Punto(5,5) 
 C=Punto(-3,-1) 
 D=Punto(0,0)    
-
+#Consulta a que cuadrante pertenecen el punto A, C y D.
 A.cuadrante()
 C.cuadrante()
 D.cuadrante()
+#Consulta los vectores AB y BA
+#A.vector(B)
+#B.vector(A)
 
+#Consulta la distancia entre los puntos 'A y B' y 'B y A' 
+A.distancia(B)
+B.distancia(A)
 
-        
+#Determina cual de los 3 puntos A, B o C, se encuentra más lejos del origen, punto (0,0)
+A.distancia(D)
+B.distancia(D)
+C.distancia(D)      
 
+#Crea un rectángulo utilizando los puntos A y B.
+#Consulta la base, altura y área del rectángulo
+rectangulo=Rectángulo(A,B)
+rectangulo.base()
+rectangulo.altura()
+rectangulo.area()
 
 
 
