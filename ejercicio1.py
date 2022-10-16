@@ -1,3 +1,6 @@
+import math
+
+
 class Punto:
     def __init__(self,x=0,y=0):
         self.x=x
@@ -20,6 +23,10 @@ class Punto:
     
     def vector(self,punto):
         print("El vector entre{} y {} es ({},{})".format(self,punto,punto.x-self.x,punto.y-self.y))
+    
+    def distancia(self,punto):
+        dis=math.sqrt((punto.x-self.x)**2 + (punto.y-self.y)**2)
+        print("La distancia entre {} y {} es {}".format(self,punto,dis))
             
 
             
