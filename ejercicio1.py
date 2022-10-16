@@ -36,7 +36,10 @@ class Rectángulo:
         if punto_final or punto_inicial ==None:
             punto_inicial=0
             punto_final=0
-            
+    
+    def base(self):
+        self.base=self.punto_final.x-self.punto_inicial.x
+    
         
     
 
