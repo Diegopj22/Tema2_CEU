@@ -6,7 +6,8 @@ def modificar(lista):
         if i not in resultado and i % 2 == 0:
             resultado.append(i)
     resultado.sort(reverse=True)       
-    
+    suma=sum(resultado)
+    resultado.insert(0,suma)
     
     
         
