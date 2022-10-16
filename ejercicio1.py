@@ -17,6 +17,9 @@ class Punto:
             print("El punto pertenence al cuarto cuadrante ")
         else:
             print("El punto se encuentra en el origen ya que x=0 y=0")
+    
+    def vector(self,punto):
+        print("El vector entre{} y {} es ({},{})".format(self,punto,punto.x-self.x,punto.y-self.y))
             
 
             
